@@ -2,22 +2,32 @@ import React, { useEffect, useState } from 'react';
 import { fetchPokemon } from './utils';
 import { Pokemon } from './types';
 
-import InfoContainer from './components/InfoContainer';
-
+import CardContainer from './components/CardContainer';
 import './app.css';
 
 const App = () => {
+  
   const [pokemon, setPokemon] = useState<Pokemon>();
-
+  
   useEffect(() => {
-    fetchPokemon('bulbasaur').then((res) => setPokemon(res));
-  }, []);
+    fetchPokemon('mewtwo').then((res) => setPokemon(res));
+    
+  }, [setPokemon]);
 
-  return (
-    <div className='appRoot'>
-      <InfoContainer pokemon={pokemon} />
-    </div>
-  );
-};
+  if(pokemon){
+    return (
+      <div className='appRoot'>        
+        <CardContainer pokemon = {pokemon} />
+      </div>
+    );
+  }
+  else{
+    return(
+      <div className="appRoot">
+        <p>Loading....</p>
+      </div>
+    )
+  };
+}
 
 export default App;

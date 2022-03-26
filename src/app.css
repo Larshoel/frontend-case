@@ -3,12 +3,194 @@
   justify-content: center;
 }
 
-.infoContainer {
+
+.col100 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  float: left;
+  
+}
+
+.col85{
+  width: 85%;
+  height: auto;
+  position: relative;
+  float: left;
+  
+}
+
+.col75{
+  width: 75%;
+  height: auto;
+  position: relative;
+  float: left;
+  
+}
+
+.col70{
+  width: 70%;
+  height: auto;
+  position: relative;
+  float: left;
+}
+
+.col50 {
+  width: 50%;
+  height: auto;
+  position: relative;
+  float: left;
+}
+
+.col33{
+  width: 33.33%;
+  height: auto;
+  position: relative;
+  float: left;
+  
+  
+}
+
+.col25 {
+  width: 25%;
+  height: auto;
+  position: relative;
+  float: left;
+}
+
+.col15{
+  width: 15%;
+  height: auto;
+  position: relative;
+  float: left;
+}
+
+.padding25 {padding-left: 25%;}
+
+.padding45 {padding-left: 50%;}
+
+.padding12 {padding-left: 12%;}
+
+.margin7 {margin-left: 7.5%;}
+
+/*-------------------------------------------------------- */
+
+.logoTop {width: 15%;}
+
+.logoMid {width: 50%;}
+
+.inline {display: inline;}
+
+.floatRight {float: right;}
+
+.floatLeft {float: left;}
+
+.centerText {text-align: center;}
+
+.blackSplit{border: 1px solid black}
+
+.logoBottom {
+  width: 12%;
+  margin-top: -20px;
+}
+
+.moveName{
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 8px;
+}
+
+.moveImg{margin-top: 30px;}
+
+.moveDec{
+  padding-left: 10px;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.movePowerTxt{
+  font-size: 30px;
+  font-weight: 600;
+  text-align: right; 
+}
+
+
+
+#cardContainer{
   display: flex;
   flex-direction: column;
   margin-top: 100px;
   width: 400px;
-  text-align: center;
   font-weight: 100;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border: 15px solid #ecb223;
+  border-radius: 15px;
+  padding: 20px;
+  background-image: url("./resources/purpleBackground.jpeg");
+  background-size: contain;
+}
+
+
+
+#name{
+  font-size: 27px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+
+#hp{
+  font-size: 25px;
+  color: darkred;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-right: 5px;
+}
+
+
+#pictureContainer{
+  margin-top: -20px;
+  border: 8px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to top, #8f6B29, #FDE08D, #DF9F28);
+  background-image: url("/src/resources/background.jpeg");
+  background-position: center;
+}
+
+#mainPic{
+  width: 40%;
+  margin-left: 30%;
+}
+
+#editionBadge{
+  width: 7%;
+  margin-top: 10px;
+  margin-left: -10px;
+}
+
+#imgTxt{
+  background-image: linear-gradient(to top, #8f6B29, #FDE08D, #DF9F28);
+  width: fit-content;
+  font-weight: 600;
+  margin-top: -22px;
+  padding: 2px;
+  -ms-transform: translateX(10%);
+  transform: translateX(10%); 
+}
+
+#movesContainer{
+  margin-top: 0px
+}
+
+#biInfo{
+  font-weight: 450;
+  font-size: 17px;
+  margin-top: -15px;
+}
+
+#bottomTxt{
+  margin-top: 2px;
+  font-weight: 450;
+  border: 3px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to top, #8f6B29, #FDE08D, #DF9F28);
 }

@@ -48,3 +48,4 @@ export interface Pokemon {
   types: TypeOfPokemon[];
   weight: number;
 }
+

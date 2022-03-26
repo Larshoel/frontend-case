@@ -1,3 +1,10 @@
+Gjensidige Frontend oppgave
+
+Hadde litt problemer med npm så har kjørt med yarn isteden.
+
+--------------------------------------------------------------------------------------
+
+
 # Frontend-case
 
 Velkommen til Gjensidige sitt Pokemon-case! ☀
