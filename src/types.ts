@@ -34,6 +34,12 @@ interface TypeOfPokemon {
   type: NameUrlPair;
 }
 
+
+interface Stats{
+  base_stat: number;
+  stat: NameUrlPair
+}
+
 export interface Pokemon {
   abilities: Ability[];
   base_experience: number;
@@ -47,5 +53,8 @@ export interface Pokemon {
   sprites: Sprites;
   types: TypeOfPokemon[];
   weight: number;
+  stats : Stats[];
+  
+
 }
 

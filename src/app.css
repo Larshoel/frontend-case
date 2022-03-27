@@ -73,8 +73,6 @@
 
 .margin7 {margin-left: 7.5%;}
 
-/*-------------------------------------------------------- */
-
 .logoTop {width: 15%;}
 
 .logoMid {width: 50%;}
@@ -100,7 +98,7 @@
   margin-right: 8px;
 }
 
-.moveImg{margin-top: 30px;}
+.moveImg{margin-top: 5%;}
 
 .moveDec{
   padding-left: 10px;
@@ -127,15 +125,24 @@
   border-radius: 15px;
   padding: 20px;
   background-image: url("./resources/purpleBackground.jpeg");
+  background-position: center;
   background-size: contain;
 }
 
-
+#type{
+  font-size: 17px;
+  font-weight: 450;
+  padding-bottom: -20px;
+}
 
 #name{
   font-size: 27px;
   font-weight: 600;
-  margin-top: 0px;
+}
+
+#topBox{
+  display: grid;
+  margin-top: -12px;
 }
 
 #hp{
@@ -154,31 +161,34 @@
   border-image-source: linear-gradient(to top, #8f6B29, #FDE08D, #DF9F28);
   background-image: url("/src/resources/background.jpeg");
   background-position: center;
+  
 }
 
 #mainPic{
   width: 40%;
   margin-left: 30%;
+  
 }
 
 #editionBadge{
   width: 7%;
+  height: auto;
+  position: relative;
+  float: left;
   margin-top: 10px;
   margin-left: -10px;
 }
 
 #imgTxt{
-  background-image: linear-gradient(to top, #8f6B29, #FDE08D, #DF9F28);
+  height: auto;
   width: fit-content;
+  position: relative;
+  float: left;
+  background-image: linear-gradient(to top, #8f6B29, #FDE08D, #DF9F28);
   font-weight: 600;
-  margin-top: -22px;
   padding: 2px;
-  -ms-transform: translateX(10%);
-  transform: translateX(10%); 
-}
-
-#movesContainer{
-  margin-top: 0px
+  margin-left: 20px;
+  margin-top: 10px;
 }
 
 #biInfo{
@@ -189,7 +199,9 @@
 
 #bottomTxt{
   margin-top: 2px;
-  font-weight: 450;
+  padding-bottom: 2px;
+  margin-bottom: -10px;
+  font-weight: 550;
   border: 3px solid;
   border-image-slice: 1;
   border-image-source: linear-gradient(to top, #8f6B29, #FDE08D, #DF9F28);

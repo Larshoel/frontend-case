@@ -1,6 +1,8 @@
-Gjensidige Frontend oppgave
+# Gjensidige Frontend oppgave
 
-Hadde litt problemer med npm så har kjørt med yarn isteden.
+Movsettet til Pokémonen er dynamisk, reload siden for å så forksjellige konfigurasjoner. 
+
+Hadde litt problemer med npm så har kjørt med yarn install && yarn start.
 
 --------------------------------------------------------------------------------------
 
