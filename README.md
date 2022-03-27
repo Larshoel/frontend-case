@@ -1,6 +1,6 @@
 # Gjensidige Frontend oppgave
 
-Movsettet til Pokémonen er dynamisk, reload siden for å så forksjellige konfigurasjoner. 
+Movsettet til Pokémonen er dynamisk, reload siden for å se forksjellige konfigurasjoner. 
 
 Hadde litt problemer med npm så har kjørt med yarn install && yarn start.
 
